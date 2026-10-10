@@ -6,7 +6,7 @@
 
 <p align="center"><strong>A production-shaped Go backend in one command.</strong></p>
 
-Gofasta is two things that work together. A CLI that scaffolds a complete project and runs your dev loop, and a library of independent packages for the parts every backend needs and nobody wants to write again: auth, caching, database setup, email, queues, scheduling, observability, and about thirty more. Use what you need, skip the rest. It's plain, idiomatic Go you can read, and replace if you outgrow it.
+Gofasta is two things that work together. A CLI that scaffolds a complete project and runs your dev loop, and a library of independent packages for the parts every backend needs and nobody wants to write again: auth, caching, database setup, email, queues, scheduling, observability and more. Use what you need, skip the rest. It's plain, idiomatic Go you can read, and replace if you outgrow it.
 
 ```bash
 go install github.com/gofastadev/cli/cmd/gofasta@latest

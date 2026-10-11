@@ -28,7 +28,7 @@ Not sure which one? Open the issue where you hit the problem. We'll move it if i
 
 ## Why people pick it
 
-- **No lock-in.** Each library package stands on its own, and the CLI never imports the library at runtime. Delete what you don't use; nothing else breaks.
+- **No lock-in.** Each library package stands on its own, and the CLI never imports the library at runtime. Delete what you don't use, fix the two or three files that imported it, and move on. We measure that count per package and publish it in the white paper.
 - **Built for coding agents.** Every command takes `--json`, every error carries a stable code with a fix hint and a docs link, and `gofasta ai claude|cursor|codex|aider|windsurf` sets up your agent in one go.
 - **Ready to ship.** Docker files, a one-command VPS deploy over SSH, systemd and nginx config, and GitHub Actions templates come out of `gofasta new`.
 - **Honest about where it is.** We're pre-1.0 (`v0.1.x`). APIs can still move, which is also the best time to shape them.
